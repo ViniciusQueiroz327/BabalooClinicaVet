@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babaloo Clínica Veterinária</title>
+    <link rel="stylesheet" href="ClinicaVeterinaria/assets/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="menu">
+                <button type="button" id="dropButton">Menu</button>
+                <div id="dropdownContent">
+                    <a href="index.html">Início</a>
+                    <a href="about.html">Sobre nós</a>
+                    <a href="hours.html">Horários</a>
+                    <a href="talkToUs.html">Contato</a>
+                </div>
+            </div>
+            <img src="ClinicaVeterinaria/assets/midia/logoIcon.png" alt="logo" title="logo" id="logoHeader">
+        </div>
+
+        <div id="main">
+            <div id="content">
+                <div class="contato">
+                    <h3>Telefone para contato: (11)2776-1181</h3>
+                </div>
+                <div id="localizacao">
+                    <h2>Onde estamos:</h2>
+                    <a href="https://maps.app.goo.gl/6aggj9Et83gGijzh6" target="_blank" class="endereco"><p>R. Maniçoba, 716B - Jardim Umarizal, São Paulo - SP, 05756-420</p></a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.468645388683!2d-46.75332082391255!3d-23.623382063875123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5581e168466d%3A0x511e33e68afb5810!2sBabaloo%20Cl%C3%ADnica%20Veterin%C3%A1ria!5e0!3m2!1sen!2sbr!4v1718735162055!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                </div>
+                <hr>
+                <div id="formulario">
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>Contato</legend>
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" required id="nome">
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" required id="email">
+
+                            <label for="assunto">Assunto:</label>
+                            <select name="assunto" id="assunto" required>
+                                <option value="">Selecione o assunto</option>
+                                <option value="jovemAprendiz">Métodos de pagamento</option>
+                                <option value="estagiario">Especialistas</option>
+                                <option value="gerente">Agendamento</option>
+                                <option value="diretor">Dúvidas gerais</option>
+                            </select>
+
+                            <label for="mensagem">Digite sua dúvida:</label>
+                            <textarea name="mensagem" id="mensagem" required></textarea>
+                        </fieldset>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <a href="https://maps.app.goo.gl/6aggj9Et83gGijzh6" target="_blank" class="endereco"><p>R. Maniçoba, 716B - Jardim Umarizal, São Paulo - SP, 05756-420</p></a>
+            <p>Telefone: (11)2776-1181</p>
+        </div>
+    </div>
+</body>
+</html>
